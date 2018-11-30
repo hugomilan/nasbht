@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/153872126.svg)](https://zenodo.org/badge/latestdoi/153872126)
+
 # NASBHT
 NASBHT - Numerical and Analytical Solutions of BioHeat Transfer problems
 
