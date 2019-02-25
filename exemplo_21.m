@@ -2,7 +2,7 @@
 % 
 % Copyright (C) 2018. Hugo Fernando Maia Milan
 %
-% File:   exemplo_04.m
+% File:   exemplo_21.m
 % Author: Hugo Fernando Maia Milan
 % Email:  hugofernando@gmail.com
 %
@@ -19,21 +19,21 @@
 % You should have received a copy of the GNU General Public License
 % along with NASBHT.  If not, see <https://www.gnu.org/licenses/>.
 
-% Algoritmo que resolve o exemplo 4.
+% Algoritmo que resolve o exemplo 21.
 
-wb=0.0005;%perfusão sanguínea
-pb=1085;%peso específico do sangue
-cb=3680;%calor específico do sangue
+wb=0.0005;%perfusÃ£o sanguÃ­nea
+pb=1085;%peso especÃ­fico do sangue
+cb=3680;%calor especÃ­fico do sangue
 Tb=37;%temperatura do sangue
-k=0.3;%condutividade térmica do tecido
-qmet = 700;%produção de calor metabólico
+k=0.3;%condutividade tÃ©rmica do tecido
+qmet = 700;%produÃ§Ã£o de calor metabÃ³lico
 L=0.03;%comprimento do tecido
 
 TC=37;%temperatura na fronteira interna
 Tar = 20;% temperatura do ar
-rc = 0.02;% resistência
-Tr = 22; % temperatura radiante média
-rr = 17e6; % resistência ao fluxo de calor por radiação
+rc = 0.02;% resistÃªncia
+Tr = 22; % temperatura radiante mÃ©dia
+rr = 17e6; % resistÃªncia ao fluxo de calor por radiaÃ§Ã£o
 
 l = sqrt(wb*pb*cb/k);
 
