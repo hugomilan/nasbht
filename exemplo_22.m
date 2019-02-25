@@ -2,7 +2,7 @@
 % 
 % Copyright (C) 2018. Hugo Fernando Maia Milan
 %
-% File:   exemplo_05.m
+% File:   exemplo_22.m
 % Author: Hugo Fernando Maia Milan
 % Email:  hugofernando@gmail.com
 %
@@ -19,23 +19,23 @@
 % You should have received a copy of the GNU General Public License
 % along with NASBHT.  If not, see <https://www.gnu.org/licenses/>.
 
-% Algoritmo que resolve o exemplo 05.
-% Encontrar a temperatura de superfície com o modelo analítico utilizando
-% toda a dedução
-% 1 músculo
+% Algoritmo que resolve o exemplo 22.
+% Encontrar a temperatura de superfÃ­cie com o modelo analÃ­tico utilizando
+% toda a deduÃ§Ã£o
+% 1 mÃºsculo
 % 2 Gordura
 
-pb=1085;%peso específico do sangue
-cb=3680;%calor específico do sangue
+pb=1085;%peso especÃ­fico do sangue
+cb=3680;%calor especÃ­fico do sangue
 Tb=37;%temperatura do sangue
 
 TC1=37;%temperatura na fronteira interna
 qL2=250;%fluxo de calor para o meio externo
 
 L1=0.02;L2=0.01;%comprimento do tecido
-k1=0.5;k2=0.4;%condutividade térmica do tecido
-wb1=0.0005;wb2=0.00035;%perfusão sanguínea
-qmet1=700;qmet2=350;%produção de calor metabólico
+k1=0.5;k2=0.4;%condutividade tÃ©rmica do tecido
+wb1=0.0005;wb2=0.00035;%perfusÃ£o sanguÃ­nea
+qmet1=700;qmet2=350;%produÃ§Ã£o de calor metabÃ³lico
 
 l1=sqrt(wb1*pb*cb/k1);
 l2=sqrt(wb2*pb*cb/k2);
