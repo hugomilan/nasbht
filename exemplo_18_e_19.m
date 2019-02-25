@@ -2,7 +2,7 @@
 % 
 % Copyright (C) 2018. Hugo Fernando Maia Milan
 %
-% File:   exemplo_01_e_02.m
+% File:   exemplo_18_e_19.m
 % Author: Hugo Fernando Maia Milan
 % Email:  hugofernando@gmail.com
 %
@@ -19,14 +19,14 @@
 % You should have received a copy of the GNU General Public License
 % along with NASBHT.  If not, see <https://www.gnu.org/licenses/>.
 
-% Algoritmo que resolve os exemplos 1 e 2.
+% Algoritmo que resolve os exemplos 18 e 19.
 
-wb=0.0005;%perfus„o sanguÌnea
-pb=1085;%peso especÌfico do sangue
-cb=3680;%calor especÌfico do sangue
+wb=0.0005;%perfus√£o sangu√≠nea
+pb=1085;%peso espec√≠fico do sangue
+cb=3680;%calor espec√≠fico do sangue
 Tb=37;%temperatura do sangue
-k=0.3;%condutividade tÈrmica do tecido
-qmet = 700;%produÁ„o de calor metabÛlico
+k=0.3;%condutividade t√©rmica do tecido
+qmet = 700;%produ√ß√£o de calor metab√≥lico
 L=0.03;%comprimento do tecido
 
 TC=37;%temperatura na fronteira interna
